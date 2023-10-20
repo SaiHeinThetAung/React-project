@@ -10,7 +10,7 @@ function Card({blog}) {
              <img className="card-img-top" src={blog.image} style={{height:"220px"}}/>
              <div className="card-body gap-2">
                 <h5 className="card-title">{blog?.name}</h5>
-                <p className="card-text">{blog?.description}</p>
+                <p className="card-text">{blog?.description.substring(0,25)}</p>
                 <div>
                   <Link to={`/blogs/${blog?.id}`}>
                 <button className='btn btn-primary ms-3'>Detail</button>
