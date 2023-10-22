@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 export const proverbApi=createApi({
     reducerPath:'mmproverbs',
-    baseQuery:fetchBaseQuery({baseUrl:'http://localhost:3000'}),
+    baseQuery:fetchBaseQuery({baseUrl:'https://json-server-ten-taupe.vercel.app/'}),
     tagTypes:['Proverbs'],
     endpoints:(builder)=>(
         {
