@@ -6,7 +6,7 @@ import Detail from './Detail'
 import EachDetail from './EachDetail'
 const App = () => {
   return (
-    <div className='container w-[1200px] mx-auto '>
+    <div className='container  mx-auto '>
       <Navigation/>
       <Routes>
         <Route path='/' element={<Title/>}/>
